@@ -12,8 +12,8 @@ function RoutesJS(){
         <BrowserRouter>
             <Routes>
                 <Route exact path="/" element={<Home/>} />
-                <Route exact path="/login" element={<Login/>} />
-                <Route exact path="/my" element={<My/>} />
+                <Route path="/login" element={<Login/>} />
+                <Route path="/my" element={<My/>} />
             </Routes>        
         </BrowserRouter>
     );

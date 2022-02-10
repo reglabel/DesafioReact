@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from 'views/base/Header';
+import Header from '../../../views/base/Header';
 import { Link } from 'react-router-dom';
 //import { useHistory, useLocation } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ const Home = () => {
     }*/
     return (
         <div>
-            <Header></Header>
+            <Header/>
             {/*mt é margin, grid é pra folha de grid, tá contando as colunas. gap-x ou gap-y entre os itens das colunas. esm é a menor tela, dps lg e xl.
             <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
             </div>*/}

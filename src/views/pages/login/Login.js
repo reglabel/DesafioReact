@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from "views/base/Header";
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
         <div>
-            <Header></Header>
-            <h1>vc esta no login</h1>
+            <h1>Voce esta no login!</h1>
+            <Link to="/">retornar a página inicial</Link>
         </div>
     );
 };
   
- export default Login
+export default Login;

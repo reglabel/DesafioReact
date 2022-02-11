@@ -1,26 +1,5 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
+import { Popover } from '@headlessui/react'
 import { Link } from 'react-router-dom';
-
-/*import {
-  BookmarkAltIcon,
-  CalendarIcon,
-  ChartBarIcon,
-  CursorClickIcon,
-  MenuIcon,
-  PhoneIcon,
-  PlayIcon,
-  RefreshIcon,
-  ShieldCheckIcon,
-  SupportIcon,
-  ViewGridIcon,
-  XIcon,
-} from '@heroicons/react/outline'*/
-//import { ChevronDownIcon } from '@heroicons/react/solid'
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
 
 const Header = () => {
   return (
@@ -32,7 +11,7 @@ const Header = () => {
                 <img
                   className="h-8 w-auto sm:h-10"
                   src="https://static-assets.bamgrid.com/product/disneyplus/images/logo.1a56f51c764022ee769c91d894d44326.svg"
-                  alt=""
+                  alt="logo disney"
                 />
             </div>
             <div className="md:flex items-center justify-end md:flex-1 lg:w-0">
